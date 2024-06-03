@@ -1,0 +1,19 @@
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 50px;
+}
+#dbtn{
+    border-color: #71cd14;
+     color: #71cd14;
+}
+#dbtn:hover{
+    background-color: #71cd14;
+    color: white;
+}
+#h5{
+    color: #71cd14;
+}

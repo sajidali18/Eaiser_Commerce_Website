@@ -1,0 +1,163 @@
+/* PaymentGateway.css */
+@import 'animate.css/animate.min.css';
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment{
+    background-color: #71cd14;
+    color: white;
+    border-bottom: 0;
+}
+
+.button {
+    background-color: #71cd14;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    animation: fadeInDown 1s ease-in-out;
+
+    background-color: white;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.form-row .form-group {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.payment{
+    background-color: #71cd14;
+}
+/* PaymentGateway.css */
+
+.custom-toast {
+    width: 300px !important;
+    /* Set the desired width */
+    height: 100px !important;
+    /* Set the desired height */
+    font-size: 16px;
+    /* Adjust font size if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.payment {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.payment h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group select.form-control {
+    padding: 9px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.custom-toast {
+    font-size: 16px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group.col-md-6,
+.form-group {
+    flex: 1;
+    min-width: calc(50% - 10px);
+}
+
+@media (max-width: 576px) {
+
+    .form-group.col-md-6,
+    .form-group {
+        min-width: 100%;
+    }
+}
